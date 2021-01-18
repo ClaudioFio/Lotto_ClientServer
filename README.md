@@ -94,7 +94,7 @@ Eg. <br>
 `pluto pluto 7igPivQaZb`
 
 #### /txt/*username*.txt
-The client's file format is: *`timestamp`* *`-r`* *`Betted_Wheels_Res`* *`Betted_Wheels`* *`-n`* *`Betted_Numbers`* *`-i`* *`Estratto_Betted_Money`* *`Estratto_Winned_Money`* *`Ambo_Betted_Money`* *`Ambo_Winned_Money`* *`Terno_Betted_Money`* *`Terno_Winned_Money`* *`Quanterna_Betted_Money`* *`Quaterna_Winned_Money`* *`Cinquina_Betted_Money`* *`Cinquina_Winned_Money`* <br>
+The client's file format is: *`timestamp`* *`-r`* *`Betted_Wheels_Res  Betted_Wheels`* *`-n`* *`Betted_Numbers`* *`-i`* *`???_Betted_Money  ???_Winned_Money`*<br>
 where:<br>
 *Betted_Wheels_Res* is a bool that rapresent if the client won on that wheel or not;<br>
 *Betted_Wheels* could rapresent more than one wheel;<br>
@@ -102,7 +102,7 @@ where:<br>
 *???_Betted_Money* rapresent how much money the client betted on;<br>
 *???_Winned_Money* rapresent how much money the client winned with that combination;<br>
 Eg. <br>
-`1610982560 -r 0 Roma -n 45 15 -i 0 0.00 5 0.00 0 0.00 0 0.00 0 0.00`<br>
+`1610982560 -r 0 Roma 0 Bari -n 45 15 -i 0 0.00 5 0.00 0 0.00 0 0.00 0 0.00`<br>
 `1610982560 -r 1 Tutte -n 15 12 13 25 -i 45 34.46 20 0.00 0 0.00 0 0.00 0 0.00`<br>
 `1610982560 -r 0 Napoli -n 88 -i 65 0.00 0 0.00 0 0.00 0 0.00 0 0.00 `
 
