@@ -94,7 +94,7 @@ Eg. <br>
 `pluto pluto 7igPivQaZb`
 
 #### /txt/*username*.txt
-The client's file format is: *`timestamp`* *`-r`* *`Betted_Wheels_Res  Betted_Wheels`* *`-n`* *`Betted_Numbers`* *`-i`* *`???_Betted_Money  ???_Winned_Money`*<br>
+The client's file format is: *`timestamp`* *`-r`* *`Betted_Wheels_Res`* *`Betted_Wheels`* *`-n`* *`Betted_Numbers`* *`-i`* *`???_Betted_Money`* *`???_Winned_Money`*<br>
 where:<br>
 *Betted_Wheels_Res* is a bool that rapresent if the client won on that wheel or not;<br>
 *Betted_Wheels* could rapresent more than one wheel;<br>
